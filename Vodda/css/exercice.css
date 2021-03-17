@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  margin-top: 30px;
+}
+
+#lien {
+  background-color: #32bae9;
+  text-align: center;
+  margin-top: 30px;
+}
+#lien a {
+  height: 1px;
+  color: aliceblue;
+  display: inline-flex;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 30px;
+}
+
+#back {
+  background-color: #2680e2;
+  height: 83vh;
+  display: flex;
+  align-items: center;
+}
+#back .masque {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: yellow;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  height: 60px;
+}
+
+#page2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=exercice.css.map */

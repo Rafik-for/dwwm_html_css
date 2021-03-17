@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  margin-top: 30px;
+}
+
+#lien {
+  background-color: #32bae9;
+  text-align: center;
+  margin-top: 30px;
+}
+#lien a {
+  height: 1px;
+  color: aliceblue;
+  display: inline-flex;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 30px;
+  transition: 0.5s;
+}
+#lien :hover {
+  background-color: #7676dd;
+  color: aqua;
+  transform: translateY(-3px);
+}
+#lien :hover:active {
+  transform: translateY(0);
+}
+
+#back {
+  background-color: #2680e2;
+  height: 83vh;
+  display: flex;
+  align-items: center;
+}
+#back .masque {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text h1 {
+  box-shadow: bisque 5em;
+}
+
+button {
+  background-color: yellow;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  height: 60px;
+}
+
+#page2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=page.css.map */
