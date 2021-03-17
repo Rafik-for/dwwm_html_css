@@ -69,4 +69,7 @@ button {
   height: 60px;
 }
 
-/*# sourceMappingURL=exercice.css.map */
+#page2 {
+  display: flex;
+  flex-wrap: wrap;
+}
