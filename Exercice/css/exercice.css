@@ -7,6 +7,14 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 1300px) {
+  #back {
+    display: wrap row;
+  }
+  #back .masque {
+    mask-size: 0.5rem;
+  }
+}
 html {
   font-size: 62.5%;
 }
@@ -59,17 +67,37 @@ header img {
 }
 
 #text h1 {
-  font-size: 200px;
+  color: aliceblue;
+  font-size: 120px;
+  margin-right: 300px;
 }
-button {
+#text p {
+  color: aliceblue;
+  font-size: 20px;
+}
+#text button {
   background-color: yellow;
   border-radius: 30px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   height: 60px;
+  width: 150px;
 }
 
 #page2 {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#page2 #article {
+  padding: 100px;
+}
+
+.info h1 {
+  font-size: 150px;
+  text-align: center;
+}
+.info a {
+  text-align: center;
+  text-decoration: none;
 }
