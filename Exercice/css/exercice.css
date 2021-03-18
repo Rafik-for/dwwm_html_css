@@ -88,16 +88,43 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: row;
 }
 #page2 #article {
   padding: 100px;
 }
 
-.info h1 {
-  font-size: 150px;
+.info {
+  padding: 50px;
   text-align: center;
 }
+.info h1 {
+  font-size: 70px;
+  color: #1a1818;
+}
 .info a {
-  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: deepskyblue;
   text-decoration: none;
+}
+
+.girl {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.girl img {
+  padding: 25px;
+}
+.girl p {
+  font-size: 16px;
+}
+.girl .nom {
+  margin-left: 35px;
+  padding: 20px;
+}
+.girl .taille {
+  height: 200px;
+  width: 220px;
 }

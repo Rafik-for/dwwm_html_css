@@ -103,22 +103,57 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  flex-wrap: row;
   #article {
     padding: 100px;
   }
 }
 
 .info{
+  padding: 50px;
+  text-align: center;
 
-  h1{
-    font-size: 150px;
-    text-align: center;
+   & h1{
+    font-size:70px;
+    color: #1a1818;
   }
 
-  a{
-    text-align: center;
+  & a{
+    font-weight: bold;
+    font-size: 15px;
+    color: deepskyblue;
     text-decoration: none;
   }
 
 }
+
+.girl {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  & img {
+    padding: 25px;
+  }
+  & .flex{
+
+
+  }
+  & p{
+    font-size: 16px;
+  }
+  & .nom{
+    margin-left: 35px;
+    padding: 20px;
+  }
+  & .taille{
+    height: 200px;
+    width: 220px;
+  }
+}
+
+
+
+
+
+
